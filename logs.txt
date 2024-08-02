@@ -1111,3 +1111,52 @@
 2024-08-02 14:44:46,370 Se facturo Orden: 313415 Factura # 13308
 2024-08-02 14:45:45,604 Se facturo Orden: 313411 Factura # 13310
 2024-08-02 14:47:13,649 Se facturo Orden: 313408 Factura # 13313
+2024-08-02 14:56:40,560 starting thread (client mode): 0x6a4fced0
+2024-08-02 14:56:40,581 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-02 14:56:40,581 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-02 14:56:40,581 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-02 14:56:40,585 === Key exchange possibilities ===
+2024-08-02 14:56:40,585 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-02 14:56:40,585 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-02 14:56:40,585 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-02 14:56:40,586 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-02 14:56:40,586 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-02 14:56:40,586 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-02 14:56:40,586 client compress: none, zlib@openssh.com
+2024-08-02 14:56:40,586 server compress: none, zlib@openssh.com
+2024-08-02 14:56:40,586 client lang: <none>
+2024-08-02 14:56:40,586 server lang: <none>
+2024-08-02 14:56:40,587 kex follows: False
+2024-08-02 14:56:40,587 === Key exchange agreements ===
+2024-08-02 14:56:40,587 Kex: curve25519-sha256@libssh.org
+2024-08-02 14:56:40,587 HostKey: ssh-ed25519
+2024-08-02 14:56:40,587 Cipher: aes128-ctr
+2024-08-02 14:56:40,587 MAC: hmac-sha2-256
+2024-08-02 14:56:40,587 Compression: none
+2024-08-02 14:56:40,587 === End of kex handshake ===
+2024-08-02 14:56:40,609 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-02 14:56:40,611 Switch to new keys ...
+2024-08-02 14:56:40,612 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-02 14:56:40,612 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-02 14:56:40,650 userauth is OK
+2024-08-02 14:56:40,708 Authentication (password) successful!
+2024-08-02 14:56:40,709 [chan 0] Max packet in: 32768 bytes
+2024-08-02 14:56:40,722 Received global request "hostkeys-00@openssh.com"
+2024-08-02 14:56:40,723 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-02 14:56:40,774 [chan 0] Max packet out: 32768 bytes
+2024-08-02 14:56:40,775 Secsh channel 0 opened.
+2024-08-02 14:56:40,776 [chan 0] Sesch channel 0 request ok
+2024-08-02 14:56:40,779 [chan 0] Sesch channel 0 request ok
+2024-08-02 14:57:13,811 Se facturo Orden: 313408 Factura # 13313
+2024-08-02 14:59:41,500 Se facturo Orden: 313402 Factura # 13318
+2024-08-02 15:00:39,924 Se facturo Orden: 313399 Factura # 13320
+2024-08-02 15:01:09,942 Se facturo Orden: 313398 Factura # 13321
+2024-08-02 15:01:41,373 Se facturo Orden: 313397 Factura # 13322
+2024-08-02 15:02:10,988 Se facturo Orden: 313395 Factura # 13323
+2024-08-02 15:02:40,607 Se facturo Orden: 313393 Factura # 13324
+2024-08-02 15:03:10,020 Se facturo Orden: 313392 Factura # 13325
+2024-08-02 15:03:39,233 Se facturo Orden: 313391 Factura # 13326
+2024-08-02 15:04:08,647 Se facturo Orden: 313390 Factura # 13327
+2024-08-02 15:04:08,656 EOF in transport thread
+2024-08-02 15:04:08,697 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
+2024-08-02 15:04:09,536 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
