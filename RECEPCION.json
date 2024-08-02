@@ -1,0 +1,36 @@
+{
+    "id":1,
+    "name":"Recep",
+    "code":[
+        {   
+            "find":"Codigo de Usuario",
+            "input":"PRUEBA\n",
+            "type":"conditional",
+            "time":1,
+            "break":false
+        },
+        {   
+            "find":"Codigo de Seguridad",
+            "input":"PRUEBA\n",
+            "type":"conditional",
+            "time":1,
+            "break":false
+        },
+        {   
+            "find":"Otros",
+            "input":"OAITV202405031\n\nS\n1",
+            "type":"conditional",
+            "time":1,
+            "break":false
+        },
+        {   
+            "find":"FIN REPORTE",
+            "input":"",
+            "type":"conditional",
+            "time":2,
+            "break":true
+        }
+    ]
+
+
+}

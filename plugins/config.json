@@ -1,0 +1,7 @@
+{
+    "plugins": [
+        "plugin1.py",
+        "plugin2.py",
+        "plugin3.py"
+    ]
+}
