@@ -1,5 +1,5 @@
-
 colorama==0.4.6
 fastapi==0.110.3
+requests==2.27.1
 uvicorn==0.29.0
 
