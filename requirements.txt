@@ -1,6 +1,5 @@
 
 colorama==0.4.6
-colorscript @ git+https://github.com/EntySec/ColorScript@b6f59d4e068832e60d52960d898186ed2d63a5b6
 fastapi==0.110.3
 uvicorn==0.29.0
 
