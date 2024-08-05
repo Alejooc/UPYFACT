@@ -72,6 +72,6 @@ class Server:
             receiver.desconectar()
             return {"recepcion": 1,"cg1_resp":recepcionar_facturas}
 
-    def run(self, host="127.0.0.1", port=8000):
+    def run(self, host="0.0.0.0", port=5000):
         uvicorn.run(self.app, host=host, port=port)
 

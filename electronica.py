@@ -78,7 +78,7 @@ class Electronica:
         
         # Enviar comandos iniciales
         try:
-            self.send_command('cd /u/uno/uno85c/cajas\n')
+            self.send_command('cd /u/uno/uno85c/lab85\n')
             self.send_command('sh UNO\n')
             self.send_command("KAREN\n")
             self.send_command("5441\n")
