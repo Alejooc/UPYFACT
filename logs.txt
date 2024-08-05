@@ -1160,3 +1160,434 @@
 2024-08-02 15:04:08,656 EOF in transport thread
 2024-08-02 15:04:08,697 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
 2024-08-02 15:04:09,536 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
+2024-08-03 07:20:26,786 starting thread (client mode): 0x6a4f1210
+2024-08-03 07:20:27,519 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-03 07:20:27,520 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-03 07:20:27,520 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-03 07:20:27,527 === Key exchange possibilities ===
+2024-08-03 07:20:27,527 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-03 07:20:27,527 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-03 07:20:27,527 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-03 07:20:28,306 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-03 07:20:28,306 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-03 07:20:28,307 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-03 07:20:28,307 client compress: none, zlib@openssh.com
+2024-08-03 07:20:28,307 server compress: none, zlib@openssh.com
+2024-08-03 07:20:28,307 client lang: <none>
+2024-08-03 07:20:28,307 server lang: <none>
+2024-08-03 07:20:28,307 kex follows: False
+2024-08-03 07:20:28,307 === Key exchange agreements ===
+2024-08-03 07:20:28,308 Kex: curve25519-sha256@libssh.org
+2024-08-03 07:20:28,308 HostKey: ssh-ed25519
+2024-08-03 07:20:28,308 Cipher: aes128-ctr
+2024-08-03 07:20:28,308 MAC: hmac-sha2-256
+2024-08-03 07:20:28,308 Compression: none
+2024-08-03 07:20:28,308 === End of kex handshake ===
+2024-08-03 07:20:28,355 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-03 07:20:28,358 Switch to new keys ...
+2024-08-03 07:20:28,359 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-03 07:20:28,362 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-03 07:20:28,395 userauth is OK
+2024-08-03 07:20:28,455 Authentication (password) successful!
+2024-08-03 07:20:28,456 [chan 0] Max packet in: 32768 bytes
+2024-08-03 07:20:28,468 Received global request "hostkeys-00@openssh.com"
+2024-08-03 07:20:28,469 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-03 07:20:28,512 [chan 0] Max packet out: 32768 bytes
+2024-08-03 07:20:28,513 Secsh channel 0 opened.
+2024-08-03 07:20:28,514 [chan 0] Sesch channel 0 request ok
+2024-08-03 07:20:28,517 [chan 0] Sesch channel 0 request ok
+2024-08-03 07:21:31,357 Se facturo Orden: 313484 Factura # 13329
+2024-08-03 07:22:30,587 Se facturo Orden: 313482 Factura # 13331
+2024-08-03 07:23:29,215 Se facturo Orden: 313479 Factura # 13333
+2024-08-03 07:24:00,036 Se facturo Orden: 313478 Factura # 13334
+2024-08-03 07:24:30,054 Se facturo Orden: 313477 Factura # 13335
+2024-08-03 07:25:59,492 Se facturo Orden: 313474 Factura # 13338
+2024-08-03 07:28:26,366 Se facturo Orden: 313469 Factura # 13343
+2024-08-03 07:28:56,382 Se facturo Orden: 313468 Factura # 13344
+2024-08-03 07:29:26,803 Se facturo Orden: 313467 Factura # 13345
+2024-08-03 07:30:28,233 Se facturo Orden: 313465 Factura # 13347
+2024-08-03 07:30:57,448 Se facturo Orden: 313464 Factura # 13348
+2024-08-03 07:33:25,137 Se facturo Orden: 313456 Factura # 13353
+2024-08-03 07:35:52,612 Se facturo Orden: 313449 Factura # 13358
+2024-08-03 07:36:23,030 Se facturo Orden: 313448 Factura # 13359
+2024-08-03 07:36:52,644 Se facturo Orden: 313447 Factura # 13360
+2024-08-03 07:37:22,661 Se facturo Orden: 313446 Factura # 13361
+2024-08-03 07:38:21,090 Se facturo Orden: 313444 Factura # 13363
+2024-08-03 07:38:50,304 Se facturo Orden: 313443 Factura # 13364
+2024-08-03 07:39:19,919 Se facturo Orden: 313440 Factura # 13365
+2024-08-03 07:39:49,938 Se facturo Orden: 313439 Factura # 13366
+2024-08-03 07:40:19,552 Se facturo Orden: 313436 Factura # 13367
+2024-08-03 07:40:49,970 Se facturo Orden: 313435 Factura # 13368
+2024-08-03 07:41:19,183 Se facturo Orden: 313434 Factura # 13369
+2024-08-03 07:41:48,398 Se facturo Orden: 313432 Factura # 13370
+2024-08-03 07:42:18,816 Se facturo Orden: 313430 Factura # 13371
+2024-08-03 07:42:48,433 Se facturo Orden: 313429 Factura # 13372
+2024-08-03 07:43:17,645 Se facturo Orden: 313428 Factura # 13373
+2024-08-03 07:43:47,662 Se facturo Orden: 313427 Factura # 13374
+2024-08-03 07:44:19,288 Se facturo Orden: 313425 Factura # 13375
+2024-08-03 07:44:49,303 Se facturo Orden: 313424 Factura # 13376
+2024-08-03 07:45:21,330 Se facturo Orden: 312847 Factura # 13377
+2024-08-03 07:45:21,335 EOF in transport thread
+2024-08-03 07:45:21,365 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
+2024-08-03 07:45:22,170 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
+2024-08-03 07:57:05,718 starting thread (client mode): 0x6a537850
+2024-08-03 07:57:05,718 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-03 07:57:05,737 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-03 07:57:05,737 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-03 07:57:05,742 === Key exchange possibilities ===
+2024-08-03 07:57:05,742 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-03 07:57:05,743 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-03 07:57:05,743 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-03 07:57:05,743 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-03 07:57:05,743 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-03 07:57:05,743 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-03 07:57:05,743 client compress: none, zlib@openssh.com
+2024-08-03 07:57:05,743 server compress: none, zlib@openssh.com
+2024-08-03 07:57:05,743 client lang: <none>
+2024-08-03 07:57:05,743 server lang: <none>
+2024-08-03 07:57:05,743 kex follows: False
+2024-08-03 07:57:05,743 === Key exchange agreements ===
+2024-08-03 07:57:05,743 Kex: curve25519-sha256@libssh.org
+2024-08-03 07:57:05,743 HostKey: ssh-ed25519
+2024-08-03 07:57:05,743 Cipher: aes128-ctr
+2024-08-03 07:57:05,744 MAC: hmac-sha2-256
+2024-08-03 07:57:05,744 Compression: none
+2024-08-03 07:57:05,744 === End of kex handshake ===
+2024-08-03 07:57:05,756 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-03 07:57:05,757 Switch to new keys ...
+2024-08-03 07:57:05,757 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-03 07:57:05,757 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-03 07:57:05,798 userauth is OK
+2024-08-03 07:57:05,856 Authentication (password) successful!
+2024-08-03 07:57:05,856 [chan 0] Max packet in: 32768 bytes
+2024-08-03 07:57:05,869 Received global request "hostkeys-00@openssh.com"
+2024-08-03 07:57:05,870 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-03 07:57:05,911 [chan 0] Max packet out: 32768 bytes
+2024-08-03 07:57:05,911 Secsh channel 0 opened.
+2024-08-03 07:57:05,913 [chan 0] Sesch channel 0 request ok
+2024-08-03 07:57:05,915 [chan 0] Sesch channel 0 request ok
+2024-08-03 07:58:07,952 Se facturo Orden: 313492 Factura # 13379
+2024-08-03 07:58:37,163 Se facturo Orden: 313490 Factura # 13380
+2024-08-03 07:59:07,181 Se facturo Orden: 313489 Factura # 13381
+2024-08-03 07:59:07,183 EOF in transport thread
+2024-08-03 07:59:07,185 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
+2024-08-03 07:59:07,831 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
+2024-08-03 08:03:01,380 starting thread (client mode): 0x6a535050
+2024-08-03 08:03:01,380 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-03 08:03:01,397 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-03 08:03:01,397 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-03 08:03:01,402 === Key exchange possibilities ===
+2024-08-03 08:03:01,402 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-03 08:03:01,402 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-03 08:03:01,403 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-03 08:03:01,403 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-03 08:03:01,403 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-03 08:03:01,403 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-03 08:03:01,403 client compress: none, zlib@openssh.com
+2024-08-03 08:03:01,403 server compress: none, zlib@openssh.com
+2024-08-03 08:03:01,403 client lang: <none>
+2024-08-03 08:03:01,403 server lang: <none>
+2024-08-03 08:03:01,403 kex follows: False
+2024-08-03 08:03:01,403 === Key exchange agreements ===
+2024-08-03 08:03:01,403 Kex: curve25519-sha256@libssh.org
+2024-08-03 08:03:01,404 HostKey: ssh-ed25519
+2024-08-03 08:03:01,404 Cipher: aes128-ctr
+2024-08-03 08:03:01,404 MAC: hmac-sha2-256
+2024-08-03 08:03:01,404 Compression: none
+2024-08-03 08:03:01,404 === End of kex handshake ===
+2024-08-03 08:03:01,424 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-03 08:03:01,425 Switch to new keys ...
+2024-08-03 08:03:01,425 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-03 08:03:01,426 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-03 08:03:01,465 userauth is OK
+2024-08-03 08:03:01,523 Authentication (password) successful!
+2024-08-03 08:03:01,524 [chan 0] Max packet in: 32768 bytes
+2024-08-03 08:03:01,536 Received global request "hostkeys-00@openssh.com"
+2024-08-03 08:03:01,536 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-03 08:03:01,582 [chan 0] Max packet out: 32768 bytes
+2024-08-03 08:03:01,582 Secsh channel 0 opened.
+2024-08-03 08:03:01,584 [chan 0] Sesch channel 0 request ok
+2024-08-03 08:03:01,586 [chan 0] Sesch channel 0 request ok
+2024-08-03 08:04:04,021 EOF in transport thread
+2024-08-03 08:04:04,023 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
+2024-08-03 08:04:04,831 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
+2024-08-05 07:33:02,470 starting thread (client mode): 0x6a574c90
+2024-08-05 07:33:02,486 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-05 07:33:02,625 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-05 07:33:02,626 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-05 07:33:02,631 === Key exchange possibilities ===
+2024-08-05 07:33:02,631 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-05 07:33:02,631 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-05 07:33:02,632 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 07:33:02,632 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 07:33:02,632 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 07:33:02,632 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 07:33:02,632 client compress: none, zlib@openssh.com
+2024-08-05 07:33:02,632 server compress: none, zlib@openssh.com
+2024-08-05 07:33:02,632 client lang: <none>
+2024-08-05 07:33:02,632 server lang: <none>
+2024-08-05 07:33:02,632 kex follows: False
+2024-08-05 07:33:02,632 === Key exchange agreements ===
+2024-08-05 07:33:02,632 Kex: curve25519-sha256@libssh.org
+2024-08-05 07:33:02,632 HostKey: ssh-ed25519
+2024-08-05 07:33:02,633 Cipher: aes128-ctr
+2024-08-05 07:33:02,633 MAC: hmac-sha2-256
+2024-08-05 07:33:02,633 Compression: none
+2024-08-05 07:33:02,633 === End of kex handshake ===
+2024-08-05 07:33:02,653 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-05 07:33:02,654 Switch to new keys ...
+2024-08-05 07:33:02,655 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-05 07:33:02,656 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-05 07:33:02,694 userauth is OK
+2024-08-05 07:33:02,864 Authentication (password) successful!
+2024-08-05 07:33:02,865 [chan 0] Max packet in: 32768 bytes
+2024-08-05 07:33:02,917 Received global request "hostkeys-00@openssh.com"
+2024-08-05 07:33:02,918 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-05 07:33:02,962 [chan 0] Max packet out: 32768 bytes
+2024-08-05 07:33:02,962 Secsh channel 0 opened.
+2024-08-05 07:33:02,963 [chan 0] Sesch channel 0 request ok
+2024-08-05 07:33:02,965 [chan 0] Sesch channel 0 request ok
+2024-08-05 07:34:05,805 Se facturo Orden: 313557 Factura # 13384
+2024-08-05 07:34:36,225 Se facturo Orden: 313554 Factura # 13385
+2024-08-05 07:35:05,638 Se facturo Orden: 313553 Factura # 13386
+2024-08-05 07:35:35,656 Se facturo Orden: 313552 Factura # 13387
+2024-08-05 07:39:02,961 Se facturo Orden: 313541 Factura # 13394
+2024-08-05 07:40:01,793 Se facturo Orden: 313539 Factura # 13396
+2024-08-05 07:40:31,408 Se facturo Orden: 313538 Factura # 13397
+2024-08-05 07:41:03,828 Se facturo Orden: 313537 Factura # 13398
+2024-08-05 07:41:33,041 Se facturo Orden: 313536 Factura # 13399
+2024-08-05 07:42:03,058 Se facturo Orden: 313535 Factura # 13400
+2024-08-05 07:42:34,271 Se facturo Orden: 313531 Factura # 13401
+2024-08-05 07:43:04,289 Se facturo Orden: 313530 Factura # 13402
+2024-08-05 07:43:34,717 Se facturo Orden: 313529 Factura # 13403
+2024-08-05 07:44:05,139 Se facturo Orden: 313528 Factura # 13404
+2024-08-05 07:45:03,566 Se facturo Orden: 313525 Factura # 13406
+2024-08-05 07:45:32,980 Se facturo Orden: 313524 Factura # 13407
+2024-08-05 07:46:04,196 Se facturo Orden: 313523 Factura # 13408
+2024-08-05 07:47:31,435 Se facturo Orden: 313519 Factura # 13411
+2024-08-05 07:48:01,454 Se facturo Orden: 313518 Factura # 13412
+2024-08-05 07:48:31,472 Se facturo Orden: 313517 Factura # 13413
+2024-08-05 07:49:02,700 Se facturo Orden: 313516 Factura # 13414
+2024-08-05 07:50:31,147 Se facturo Orden: 313512 Factura # 13417
+2024-08-05 07:51:00,563 Se facturo Orden: 313511 Factura # 13418
+2024-08-05 07:51:29,777 Se facturo Orden: 313509 Factura # 13419
+2024-08-05 07:51:59,191 Se facturo Orden: 313508 Factura # 13420
+2024-08-05 07:52:28,405 Se facturo Orden: 313507 Factura # 13421
+2024-08-05 07:52:59,424 Se facturo Orden: 313506 Factura # 13422
+2024-08-05 07:53:28,837 Se facturo Orden: 313505 Factura # 13423
+2024-08-05 07:53:58,854 Se facturo Orden: 313504 Factura # 13424
+2024-08-05 07:54:28,468 Se facturo Orden: 313503 Factura # 13425
+2024-08-05 07:54:58,488 Se facturo Orden: 313502 Factura # 13426
+2024-08-05 07:55:28,105 Se facturo Orden: 313501 Factura # 13427
+2024-08-05 07:55:57,517 Se facturo Orden: 313500 Factura # 13428
+2024-08-05 07:56:26,931 Se facturo Orden: 313499 Factura # 13429
+2024-08-05 07:56:56,144 Se facturo Orden: 313498 Factura # 13430
+2024-08-05 07:57:26,162 Se facturo Orden: 313497 Factura # 13431
+2024-08-05 07:57:56,378 Se facturo Orden: 313496 Factura # 13432
+2024-08-05 07:58:25,593 Se facturo Orden: 313491 Factura # 13433
+2024-08-05 07:58:25,598 EOF in transport thread
+2024-08-05 07:58:25,621 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
+2024-08-05 07:58:26,417 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
+2024-08-05 08:31:38,151 starting thread (client mode): 0x6a57a890
+2024-08-05 08:31:38,152 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-05 08:31:38,164 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-05 08:31:38,165 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-05 08:31:38,169 === Key exchange possibilities ===
+2024-08-05 08:31:38,169 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-05 08:31:38,170 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-05 08:31:38,170 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 08:31:38,170 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 08:31:38,170 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 08:31:38,170 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 08:31:38,170 client compress: none, zlib@openssh.com
+2024-08-05 08:31:38,170 server compress: none, zlib@openssh.com
+2024-08-05 08:31:38,170 client lang: <none>
+2024-08-05 08:31:38,170 server lang: <none>
+2024-08-05 08:31:38,170 kex follows: False
+2024-08-05 08:31:38,170 === Key exchange agreements ===
+2024-08-05 08:31:38,170 Kex: curve25519-sha256@libssh.org
+2024-08-05 08:31:38,171 HostKey: ssh-ed25519
+2024-08-05 08:31:38,171 Cipher: aes128-ctr
+2024-08-05 08:31:38,171 MAC: hmac-sha2-256
+2024-08-05 08:31:38,171 Compression: none
+2024-08-05 08:31:38,171 === End of kex handshake ===
+2024-08-05 08:31:38,188 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-05 08:31:38,189 Switch to new keys ...
+2024-08-05 08:31:38,190 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-05 08:31:38,191 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-05 08:31:38,229 userauth is OK
+2024-08-05 08:31:38,289 Authentication (password) successful!
+2024-08-05 08:31:38,291 [chan 0] Max packet in: 32768 bytes
+2024-08-05 08:31:38,304 Received global request "hostkeys-00@openssh.com"
+2024-08-05 08:31:38,304 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-05 08:31:38,345 [chan 0] Max packet out: 32768 bytes
+2024-08-05 08:31:38,345 Secsh channel 0 opened.
+2024-08-05 08:31:38,347 [chan 0] Sesch channel 0 request ok
+2024-08-05 08:31:38,349 [chan 0] Sesch channel 0 request ok
+2024-08-05 08:32:40,589 Se facturo Orden: 313627 Factura # 13435
+2024-08-05 08:33:39,820 Se facturo Orden: 313625 Factura # 13437
+2024-08-05 08:34:09,035 Se facturo Orden: 313624 Factura # 13438
+2024-08-05 08:34:38,650 Se facturo Orden: 313623 Factura # 13439
+2024-08-05 08:35:37,479 Se facturo Orden: 313621 Factura # 13441
+2024-08-05 08:36:08,498 Se facturo Orden: 313620 Factura # 13442
+2024-08-05 08:36:37,709 Se facturo Orden: 313618 Factura # 13443
+2024-08-05 08:38:34,563 Se facturo Orden: 313613 Factura # 13447
+2024-08-05 08:39:04,179 Se facturo Orden: 313609 Factura # 13448
+2024-08-05 08:39:33,392 Se facturo Orden: 313607 Factura # 13449
+2024-08-05 08:42:59,290 Se facturo Orden: 313596 Factura # 13456
+2024-08-05 08:43:59,732 Se facturo Orden: 313593 Factura # 13458
+2024-08-05 08:45:02,989 Se facturo Orden: 313591 Factura # 13460
+2024-08-05 08:45:32,203 Se facturo Orden: 313589 Factura # 13461
+2024-08-05 08:46:33,045 Se facturo Orden: 313586 Factura # 13463
+2024-08-05 08:47:02,258 Se facturo Orden: 313584 Factura # 13464
+2024-08-05 08:47:31,873 Se facturo Orden: 313582 Factura # 13465
+2024-08-05 08:48:02,292 Se facturo Orden: 313579 Factura # 13466
+2024-08-05 08:48:33,515 Se facturo Orden: 313578 Factura # 13467
+2024-08-05 08:49:33,953 Se facturo Orden: 313576 Factura # 13469
+2024-08-05 08:50:03,568 Se facturo Orden: 313575 Factura # 13470
+2024-08-05 08:50:32,782 Se facturo Orden: 313574 Factura # 13471
+2024-08-05 08:51:01,997 Se facturo Orden: 313573 Factura # 13472
+2024-08-05 08:51:33,624 Se facturo Orden: 313572 Factura # 13473
+2024-08-05 08:52:03,642 Se facturo Orden: 313571 Factura # 13474
+2024-08-05 08:52:33,257 Se facturo Orden: 313569 Factura # 13475
+2024-08-05 08:53:04,675 Se facturo Orden: 313568 Factura # 13476
+2024-08-05 08:53:34,290 Se facturo Orden: 313567 Factura # 13477
+2024-08-05 08:54:03,905 Se facturo Orden: 313565 Factura # 13478
+2024-08-05 08:54:34,324 Se facturo Orden: 313564 Factura # 13479
+2024-08-05 08:55:03,944 Se facturo Orden: 313563 Factura # 13480
+2024-08-05 08:55:33,961 Se facturo Orden: 313562 Factura # 13481
+2024-08-05 08:56:03,981 Se facturo Orden: 313561 Factura # 13482
+2024-08-05 08:56:33,193 Se facturo Orden: 313560 Factura # 13483
+2024-08-05 08:57:02,405 Se facturo Orden: 313559 Factura # 13484
+2024-08-05 08:57:02,406 EOF in transport thread
+2024-08-05 08:57:02,416 Starting new HTTPS connection (1): admin.tuhogaronline.com:443
+2024-08-05 08:57:03,226 https://admin.tuhogaronline.com:443 "POST /index.php/apitho/set_fact HTTP/1.1" 200 None
+2024-08-05 09:11:43,229 starting thread (client mode): 0x6a54b5d0
+2024-08-05 09:11:43,229 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-05 09:11:43,244 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-05 09:11:43,244 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-05 09:11:43,247 === Key exchange possibilities ===
+2024-08-05 09:11:43,247 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-05 09:11:43,247 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-05 09:11:43,247 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 09:11:43,247 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 09:11:43,247 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 09:11:43,247 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 09:11:43,247 client compress: none, zlib@openssh.com
+2024-08-05 09:11:43,247 server compress: none, zlib@openssh.com
+2024-08-05 09:11:43,247 client lang: <none>
+2024-08-05 09:11:43,247 server lang: <none>
+2024-08-05 09:11:43,248 kex follows: False
+2024-08-05 09:11:43,248 === Key exchange agreements ===
+2024-08-05 09:11:43,248 Kex: curve25519-sha256@libssh.org
+2024-08-05 09:11:43,248 HostKey: ssh-ed25519
+2024-08-05 09:11:43,248 Cipher: aes128-ctr
+2024-08-05 09:11:43,248 MAC: hmac-sha2-256
+2024-08-05 09:11:43,248 Compression: none
+2024-08-05 09:11:43,248 === End of kex handshake ===
+2024-08-05 09:11:43,263 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-05 09:11:43,264 Switch to new keys ...
+2024-08-05 09:11:43,264 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-05 09:11:43,264 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-05 09:11:43,304 userauth is OK
+2024-08-05 09:11:43,359 Authentication (password) successful!
+2024-08-05 09:11:43,360 [chan 0] Max packet in: 32768 bytes
+2024-08-05 09:11:43,368 Received global request "hostkeys-00@openssh.com"
+2024-08-05 09:11:43,369 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-05 09:11:43,413 [chan 0] Max packet out: 32768 bytes
+2024-08-05 09:11:43,414 Secsh channel 0 opened.
+2024-08-05 09:11:43,415 [chan 0] Sesch channel 0 request ok
+2024-08-05 09:11:43,418 [chan 0] Sesch channel 0 request ok
+2024-08-05 09:12:16,036 Se facturo Orden: 313683 Factura # 13485
+2024-08-05 09:12:48,063 Se facturo Orden: 313682 Factura # 13486
+2024-08-05 09:13:48,107 Se facturo Orden: 313680 Factura # 13488
+2024-08-05 09:14:18,129 Se facturo Orden: 313679 Factura # 13489
+2024-08-05 09:15:45,981 Se facturo Orden: 313676 Factura # 13492
+2024-08-05 09:16:16,004 Se facturo Orden: 313675 Factura # 13493
+2024-08-05 09:16:45,624 Se facturo Orden: 313674 Factura # 13494
+2024-08-05 09:18:23,311 Se facturo Orden: 313671 Factura # 13497
+2024-08-05 09:19:24,552 Se facturo Orden: 313668 Factura # 13499
+2024-08-05 09:19:54,977 Se facturo Orden: 313667 Factura # 13500
+2024-08-05 09:20:26,196 Se facturo Orden: 313666 Factura # 13501
+2024-08-05 09:20:54,607 Se facturo Orden: 313664 Factura # 13502
+2024-08-05 09:39:59,640 starting thread (client mode): 0x488289d0
+2024-08-05 09:39:59,640 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-05 09:40:00,716 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-05 09:40:00,716 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-05 09:40:00,790 === Key exchange possibilities ===
+2024-08-05 09:40:00,790 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-05 09:40:00,790 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-05 09:40:00,790 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 09:40:00,790 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 09:40:00,790 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 09:40:00,790 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 09:40:00,791 client compress: none, zlib@openssh.com
+2024-08-05 09:40:00,791 server compress: none, zlib@openssh.com
+2024-08-05 09:40:00,791 client lang: <none>
+2024-08-05 09:40:00,791 server lang: <none>
+2024-08-05 09:40:00,791 kex follows: False
+2024-08-05 09:40:00,791 === Key exchange agreements ===
+2024-08-05 09:40:00,791 Kex: curve25519-sha256@libssh.org
+2024-08-05 09:40:00,791 HostKey: ssh-ed25519
+2024-08-05 09:40:00,791 Cipher: aes128-ctr
+2024-08-05 09:40:00,791 MAC: hmac-sha2-256
+2024-08-05 09:40:00,791 Compression: none
+2024-08-05 09:40:00,791 === End of kex handshake ===
+2024-08-05 09:40:00,811 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-05 09:40:00,812 Switch to new keys ...
+2024-08-05 09:40:00,812 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-05 09:40:00,812 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-05 09:40:00,868 userauth is OK
+2024-08-05 09:40:01,148 Authentication (password) successful!
+2024-08-05 09:40:01,148 [chan 0] Max packet in: 32768 bytes
+2024-08-05 09:40:01,164 Received global request "hostkeys-00@openssh.com"
+2024-08-05 09:40:01,164 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-05 09:40:01,213 [chan 0] Max packet out: 32768 bytes
+2024-08-05 09:40:01,213 Secsh channel 0 opened.
+2024-08-05 09:40:01,215 [chan 0] Sesch channel 0 request ok
+2024-08-05 09:40:01,217 [chan 0] Sesch channel 0 request ok
+2024-08-05 09:48:45,291 starting thread (client mode): 0xa3916710
+2024-08-05 09:48:45,292 Local version/idstring: SSH-2.0-paramiko_3.4.0
+2024-08-05 09:48:45,309 Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2024-08-05 09:48:45,309 Connected (version 2.0, client OpenSSH_7.4)
+2024-08-05 09:48:45,314 === Key exchange possibilities ===
+2024-08-05 09:48:45,314 kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2024-08-05 09:48:45,314 server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-05 09:48:45,315 client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 09:48:45,315 server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2024-08-05 09:48:45,315 client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 09:48:45,347 server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-05 09:48:45,347 client compress: none, zlib@openssh.com
+2024-08-05 09:48:45,347 server compress: none, zlib@openssh.com
+2024-08-05 09:48:45,347 client lang: <none>
+2024-08-05 09:48:45,347 server lang: <none>
+2024-08-05 09:48:45,347 kex follows: False
+2024-08-05 09:48:45,347 === Key exchange agreements ===
+2024-08-05 09:48:45,347 Kex: curve25519-sha256@libssh.org
+2024-08-05 09:48:45,347 HostKey: ssh-ed25519
+2024-08-05 09:48:45,347 Cipher: aes128-ctr
+2024-08-05 09:48:45,348 MAC: hmac-sha2-256
+2024-08-05 09:48:45,348 Compression: none
+2024-08-05 09:48:45,348 === End of kex handshake ===
+2024-08-05 09:48:45,364 kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-05 09:48:45,364 Switch to new keys ...
+2024-08-05 09:48:45,365 Adding ssh-ed25519 host key for [192.168.0.150]:1634: b'e7c4a129d4ed1eb6850b113983b96518'
+2024-08-05 09:48:45,365 Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2024-08-05 09:48:45,405 userauth is OK
+2024-08-05 09:48:45,480 Authentication (password) successful!
+2024-08-05 09:48:45,482 [chan 0] Max packet in: 32768 bytes
+2024-08-05 09:48:45,511 Received global request "hostkeys-00@openssh.com"
+2024-08-05 09:48:45,511 Rejecting "hostkeys-00@openssh.com" global request from server.
+2024-08-05 09:48:45,554 [chan 0] Max packet out: 32768 bytes
+2024-08-05 09:48:45,554 Secsh channel 0 opened.
+2024-08-05 09:48:45,556 [chan 0] Sesch channel 0 request ok
+2024-08-05 09:48:45,558 [chan 0] Sesch channel 0 request ok
+2024-08-05 09:49:18,586 Se facturo Orden: 313663 Factura # 13502
+2024-08-05 09:50:18,619 Se facturo Orden: 313661 Factura # 13504
+2024-08-05 09:52:20,283 Se facturo Orden: 313657 Factura # 13508
+2024-08-05 09:53:19,940 Se facturo Orden: 313655 Factura # 13510
+2024-08-05 09:54:18,583 Se facturo Orden: 313653 Factura # 13512
+2024-08-05 09:54:49,808 Se facturo Orden: 313652 Factura # 13513
+2024-08-05 09:55:21,825 Se facturo Orden: 313650 Factura # 13514
+2024-08-05 09:55:52,243 Se facturo Orden: 313648 Factura # 13515
+2024-08-05 09:57:50,971 Se facturo Orden: 313644 Factura # 13519
