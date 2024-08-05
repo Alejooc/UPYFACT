@@ -85,15 +85,11 @@
 Este endpoint recibe un JSON con los datos de la factura electrónica y los procesa a través del sistema CG1 8.1.
 
 
-## Contribuciones
-Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para cualquier mejora o corrección.
-
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 Contacto
-Autor: Tu Nombre
-Correo: tu-email@example.com
-GitHub: tu-usuario
+Autor: Alejandro osorio
+
 
 **¡Gracias por usar Upyfact! 🚀**
