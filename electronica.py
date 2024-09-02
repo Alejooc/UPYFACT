@@ -85,7 +85,7 @@ class Electronica:
             time.sleep(0.5)
             # Navegar por el menú
             self.send_command("OALRF\n")
-            self.send_command("\x1B") #ESC reiniciamos par aingresar el CO 
+            """self.send_command("\x1B") #ESC reiniciamos par aingresar el CO """
             self.send_command(centroOperacion)  # / CO 
             self.send_command(numCaja)  # / CAJA 
             self.send_command( "\u000d")  # ENTER
@@ -107,7 +107,7 @@ class Electronica:
                             try:
                                 if self.shell.recv_ready():
                                     salida = self.shell.recv(99999).decode(errors='ignore')
-                                   # print(salida, end='')
+                                    #print(salida, end='')
                                     #logging.debug(salida)  # Esto se guardará en logs.txt
                                     if "FACTURACION DE ITEMS - INGRESO" in salida:
                                         for items in jsonFacturas['items']: 
